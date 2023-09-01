@@ -17,15 +17,15 @@ function Home() {
                 </span>
                 </h1>
                 <h1 className="heading-name">
-                I'M
+                I AM
                 <strong className="main-name"> Chamil Gamage</strong>
               </h1>
-              <div style={{ padding: 50, textAlign: "left" }} className="heading-name">
-                <Type />
-              </div>
+                <div style={{ padding: 0, textAlign: "left" }} className="heading-name">
+                  <Type />
+                </div>
                 </Col>
                 <Col md={5}>
-                <HomeAnimation />
+                <HomeAnimation/>
                 </Col>
             </Row> 
         </div>

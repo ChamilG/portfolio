@@ -10,7 +10,7 @@ const lottieOptions = {
 function HomeAnimation() {
   return (
     <>
-        <Lottie options={lottieOptions}></Lottie>
+        <Lottie options={lottieOptions} style={{ maxHeight: "500px" }} ></Lottie>
     </>
   )
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import Tilt from "react-parallax-tilt";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/mypic.png";
 import {
     AiFillGithub,
     AiFillFacebook,
@@ -49,9 +49,9 @@ function Home2() {
               </i>
             </p>
         </Col>
-        <Col md={4} className="myAvtar">
+        <Col md={4} className="home-about-description">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={myImg} className="img-fluid" alt="avatar" style={{position: 'relative'}}/>
             </Tilt>
           </Col>
     </Row>
