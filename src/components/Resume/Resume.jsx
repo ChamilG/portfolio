@@ -31,7 +31,9 @@ function Resume(){
     return(
         <div>
         <Container fluid className="resume-section">
-            <Row style ={{ justifyContent: "center"}}>
+            <Container>
+
+            <Row style ={{ justifyContent: "center", position: "relative" }}>
                 <Button
                  variant="warning"
                  href={pdf}
@@ -49,9 +51,11 @@ function Resume(){
             </Row>
             <Row className="resume">
                 <Document file={pdf} className="d-flex justify-content-center" > 
-                    <Page pageNumber={pageNumber} scale={width > 786 ? 1.9 : 0.6} style= {{height:"100px"}}/>
+                    <Page pageNumber={pageNumber} scale={width > 786 ? 1.9 : 0.6} className="resume-page"/>
                 </Document>
             </Row>
+            </Container>
+            
         </Container>
         </div>
     )
