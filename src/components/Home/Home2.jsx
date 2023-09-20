@@ -45,7 +45,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="yellow"> React.js and Next.js</b>
+                <b className="yellow"> React.js and React Native</b>
               </i>
             </p>
         </Col>

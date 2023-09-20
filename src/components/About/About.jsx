@@ -20,7 +20,7 @@ function About() {
             </Col>
             <Col md={5} style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img">
-                <img width={400} src={coding} alt='about'></img>
+                <img width={300} src={coding} alt='about'></img>
             </Col>
         </Row>
         <h1>Here is my <strong className='yellow'> Skill </strong> Set</h1>

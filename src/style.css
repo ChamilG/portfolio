@@ -82,6 +82,10 @@ html,body {
   padding-left: 20px !important;
 }
 
+.heading-name-type {
+  font-size: 2em !important;
+  padding-left: 20px !important;
+}
 
 .main-name {
   color: #e0d207;
@@ -498,19 +502,19 @@ text-shadow: 0 0 2px #dc9d0b;
   max-width: 100px;
   margin-right: 10px;
   color: #fff !important;
-  background-color: #07e032 !important;
-  border-color: #07e020 !important;
+  background-color: #438fdb !important;
+  border-color: #e0d207 !important;
 }
 .btn-primary {
   color: #fff !important;
-  background-color: #36e70ad7 !important;
+  background-color: #438fdb !important;
   border-color: #e0d207 !important;
 }
 
 .btn-primary:hover {
   color: #151212 !important;
-  background-color: #e0d207 !important;
-  border-color: #e0d207 !important;
+  background-color: #d0c308 !important;
+  border-color: #ffee03 !important;
 }
 .btn:focus {
   outline: none !important;
