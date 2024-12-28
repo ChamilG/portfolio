@@ -20,7 +20,7 @@ function Home() {
                 I AM
                 <strong className="main-name"> Chamil Gamage</strong>
               </h1>
-                <div style={{ padding: 0, textAlign: "left" }} className="heading-name">
+                <div style={{ padding: 10, textAlign: "left" }} className="heading-name-type">
                   <Type />
                 </div>
                 </Col>

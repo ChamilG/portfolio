@@ -3,7 +3,6 @@ import About from "./components/About/About"
 import Resume from "./components/Resume/Resume";
 import Projects from "./components/Projects/Projects";
 import NavigationBar from "./components/NavigationBar";
-// import Test from "./components/Home/";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./style.css"
 import {
@@ -12,6 +11,7 @@ import {
   Routes,
   Navigate
 } from "react-router-dom";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -25,7 +25,8 @@ function App() {
           <Route path="/resume" element={<Resume />} />
           <Route path="*" element={<Navigate to="/"/>} />
       </Routes>
-    </Router>   
+    </Router> 
+    <Footer/>  
     </>
      
   );
