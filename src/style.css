@@ -837,9 +837,9 @@ body {
   box-shadow: none !important;
 }
 
-/* Expereinces section */
+/* Profile section */
 /* Timeline Section */
-.timeline-section {
+.profile-section {
   /* background-color: #0b0e17; */
   /* color: #fff; */
   position: relative !important;
@@ -849,7 +849,9 @@ body {
   text-align: center;
   position: relative;
 }
-
+.timeline-section {
+  padding-top: 20px;
+}
 .timeline-title {
   font-size: 36px;
   margin-bottom: 40px;

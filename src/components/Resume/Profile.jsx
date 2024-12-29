@@ -1,5 +1,4 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
 
 function Profile() {
   const timelineData = [
@@ -50,29 +49,56 @@ function Profile() {
   ];
 
   return (
-    <section className="timeline-section">
+    <section className="profile-section">
       <div className="heading-section">
         <h1 className="big">Profile</h1>
         <h2 className="mb-4">Profile</h2>
       </div>
-      <div className="timeline-container">
-        {timelineData.map((item, index) => (
-          <div
-            key={index}
-            className={`timeline-item ${
-              item.side === "left" ? "left" : "right"
-            }`}
-          >
-            <div className="timeline-content">
-              <h4>{item.title}</h4>
-              <h5>{item.institution}</h5>
-              <span className="timeline-period">{item.period}</span>
-              <p>{item.description}</p>
+      <div className="timeline-section">
+        <div>
+          <h2>Education</h2>
+        </div>
+        <div className="timeline-container">
+          {timelineData.map((item, index) => (
+            <div
+              key={index}
+              className={`timeline-item ${
+                item.side === "left" ? "left" : "right"
+              }`}
+            >
+              <div className="timeline-content">
+                <h4>{item.title}</h4>
+                <h5>{item.institution}</h5>
+                <span className="timeline-period">{item.period}</span>
+                <p>{item.description}</p>
+              </div>
+              <div className="timeline-dot"></div>
             </div>
-            <div className="timeline-dot"></div>
-          </div>
-        ))}
-        <div className="timeline-line"></div>
+          ))}
+          <div className="timeline-line"></div>
+        </div>
+        <div>
+          <h2>Experinces</h2>
+        </div>
+        <div className="timeline-container">
+          {timelineData.map((item, index) => (
+            <div
+              key={index}
+              className={`timeline-item ${
+                item.side === "left" ? "left" : "right"
+              }`}
+            >
+              <div className="timeline-content">
+                <h4>{item.title}</h4>
+                <h5>{item.institution}</h5>
+                <span className="timeline-period">{item.period}</span>
+                <p>{item.description}</p>
+              </div>
+              <div className="timeline-dot"></div>
+            </div>
+          ))}
+          <div className="timeline-line"></div>
+        </div>
       </div>
     </section>
   );
