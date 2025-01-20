@@ -1,18 +1,58 @@
-import React from 'react'
-import { Container,Row, Col } from 'react-bootstrap'
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import { FaFacebook, FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
 
 function Footer() {
   let date = new Date();
   let year = date.getFullYear();
+
   return (
     <Container fluid className="footer">
-      <Row>
-      
-          <h3>Copyright © {year} CN</h3>
-
-        
+      <Row className="text-center">
+        <Col>
+          <div className="social-links" style={{ fontSize: "1.5rem" }}>
+            <a
+              href="https://www.facebook.com/your-profile"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "white", margin: "0 10px" }}
+            >
+              <FaFacebook />
+            </a>
+            <a
+              href="https://www.instagram.com/your-profile"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "white", margin: "0 10px" }}
+            >
+              <FaInstagram />
+            </a>
+            <a
+              href="https://github.com/your-profile"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "white", margin: "0 10px" }}
+            >
+              <FaGithub />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/your-profile"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "white", margin: "0 10px" }}
+            >
+              <FaLinkedin />
+            </a>
+          </div>
+        </Col>
+      </Row>
+      <Row className="text-center">
+        <Col>
+          <h5>Copyright © {year} CN</h5>
+        </Col>
       </Row>
     </Container>
-  )
+  );
 }
-export default Footer
+
+export default Footer;

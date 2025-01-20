@@ -4,8 +4,12 @@ import HomeAnimation from "./HomeAnimation";
 import me from "../../Assets/1696069027241.jpeg";
 import Type from "./Type";
 import Home2 from "./Home2";
+import { Link } from "react-router-dom";
 
 function Home() {
+  const handleEmail = () => {
+    window.location.href = "mailto:chamilnethmina@gmail.com";
+  };
   return (
     <section className="home-section">
       <div className="hero hero-primary">
@@ -39,10 +43,14 @@ function Home() {
                   <Type />
                 </h3>
                 <div className="hero-buttons">
-                  <Button className="btn-hire-me">Hire Me</Button>
-                  <Button variant="outline-light" className="btn-my-works">
-                    My Works
+                  <Button className="btn-hire-me" onClick={handleEmail}>
+                    Hire Me
                   </Button>
+                  <Link to="/projects">
+                    <Button variant="outline-light" className="btn-my-works">
+                      My Works
+                    </Button>
+                  </Link>
                 </div>
               </Col>
               <Col md={5} className="img text-center">

@@ -1,11 +1,11 @@
 import React from "react";
 
 function Profile() {
-  const timelineData = [
+  const educationData = [
     {
       title: "Bachelor of Science in Computer Science and Engineering",
       institution: "University of Moratuwa",
-      period: "2021  2025 January",
+      period: "2021 - present",
       description:
         "Currently pursuing a Master of Science in Artificial Intelligence at the University of Moratuwa.",
       type: "education",
@@ -15,19 +15,21 @@ function Profile() {
       title: "GCE Advanced Level",
       institution: "D.S Senanayake College Colombo 07",
       period: "2019",
-      description:
-        "Graduated from UCSC in 2022 with a second class lower division.",
+      description: "I did my Advanced Level in Physical Stream : 3A pass",
       type: "education",
       side: "right",
     },
     {
-      title: "GCE Olevel",
+      title: "GCE Ordinary level",
       institution: "D.S Senanayake College Colombo 07",
       period: "2014",
-      description: "",
+      description: "8A 1B pass",
       type: "experience",
       side: "left",
     },
+  ];
+
+  const experienceData = [
     {
       title: "Associate Software Engineer",
       institution: "promiseQ GmbH",
@@ -38,7 +40,7 @@ function Profile() {
       side: "right",
     },
     {
-      title: "Intern",
+      title: "Software Engineering Intern",
       institution: "promiseQ GmbH",
       period: "2023 November - 2024 May",
       description:
@@ -59,7 +61,7 @@ function Profile() {
           <h2>Education</h2>
         </div>
         <div className="timeline-container">
-          {timelineData.map((item, index) => (
+          {educationData.map((item, index) => (
             <div
               key={index}
               className={`timeline-item ${
@@ -81,7 +83,7 @@ function Profile() {
           <h2>Experinces</h2>
         </div>
         <div className="timeline-container">
-          {timelineData.map((item, index) => (
+          {experienceData.map((item, index) => (
             <div
               key={index}
               className={`timeline-item ${

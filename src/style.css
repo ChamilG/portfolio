@@ -888,7 +888,7 @@ body {
 
 .timeline-item.left {
   flex-direction: row-reverse;
-  text-align: right;
+  text-align: left;
   padding-right: 60px;
 }
 
@@ -1111,7 +1111,7 @@ body {
 /* Footer */
 /* --------- */
 .footer {
-  background-color: rgb(92, 81, 8);
+  background-color: rgb(19, 19, 18);
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;

@@ -1,6 +1,6 @@
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
-// import Resume from "./components/Resume/Resume";
+import Resume from "./components/Resume/Resume";
 import Profile from "./components/Resume/Profile";
 import Projects from "./components/Projects/Projects";
 import NavigationBar from "./components/NavigationBar";
@@ -24,6 +24,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/about" element={<About />} />
           <Route path="/profile" element={<Profile />} />
+          <Route path="/Resume" element={<Resume />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </Router>

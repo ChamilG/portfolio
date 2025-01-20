@@ -30,7 +30,7 @@ function Projects() {
                 description="A computer vision app build by a CNN model in python to recognize ASL alphabet. "
                 ghLink="#"
                 demoLink="#"
-                text="Python, TensorFlow"
+                tech="Python, TensorFlow"
               />
             </Col>
             <Col md={4} className="project-card">
@@ -74,18 +74,7 @@ function Projects() {
                 description="An online cab booking service for JCS"
                 ghLink="https://github.com/ChamilG/LMS"
                 demoLink="#"
-                tech="Python, Django"
-              />
-            </Col>
-            <Col md={4} className="project-card">
-              <ProjectCard
-                imgPath={LMS}
-                isBlog={false}
-                title="Fish Product"
-                description="A Whole sale sit for JCS Fish"
-                ghLink="https://github.com/ChamilG/LMS"
-                demoLink="#"
-                tech="Python, Django"
+                tech="Python,Django"
               />
             </Col>
             <Col md={4} className="project-card">
@@ -93,21 +82,21 @@ function Projects() {
                 imgPath={LMS}
                 isBlog={false}
                 title="Multi Fixer"
-                description="Multi line bug fixer for java"
+                description="Multi line bug fixer for java applications"
                 ghLink="https://github.com/ChamilG/LMS"
                 demoLink="#"
-                tech="LLM"
+                tech="CLM,Python,Understand api"
               />
             </Col>
             <Col md={4} className="project-card">
               <ProjectCard
                 imgPath={LMS}
                 isBlog={false}
-                title="Summary"
-                description="semester 5 project"
-                ghLink="https://github.com/ChamilG/LMS"
+                title="Assessment and Feedback System"
+                description="For evaluation on student summaries"
+                ghLink="https://github.com/dan-niles/student-summary-evaluator"
                 demoLink="#"
-                tech="LLM"
+                tech="LLM, NextJs, Django, Python"
               />
             </Col>
           </Row>

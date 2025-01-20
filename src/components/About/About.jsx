@@ -1,8 +1,12 @@
 import React from "react";
-import { Card, Col, Container, Row } from "react-bootstrap";
+import { Card, Col, Container, Row, Button } from "react-bootstrap";
 import coding from "../../Assets/codinganimation.gif";
 import AboutCard from "./AboutCard";
 import SkillSet from "./SkillSet";
+import { AiOutlineDownload } from "react-icons/ai";
+import { TiDocumentText } from "react-icons/ti";
+
+import pdf from "../../Assets/../Assets/ChamilGamageCV.pdf";
 
 function About() {
   return (
@@ -23,7 +27,27 @@ function About() {
             }}
             className="align-items-center justify-content-center"
           >
+            <h1>
+              Know who <strong className="yellow">I am </strong>
+            </h1>
             <AboutCard />
+            <Row
+              style={{
+                justifyContent: "left",
+                position: "relative",
+                paddingLeft: "10px",
+              }}
+            >
+              <Button
+                variant="warning"
+                href={pdf}
+                target="_blank"
+                style={{ maxWidth: "250px" }}
+              >
+                <TiDocumentText />
+                Download CV
+              </Button>
+            </Row>
           </Col>
           <Col
             md={5}

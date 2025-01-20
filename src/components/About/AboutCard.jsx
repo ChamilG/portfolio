@@ -45,27 +45,25 @@ function AboutCard() {
             </li>
           </ul>
         </blockquote> */}
-        <h1>
-          Know who <strong className="yellow">I am </strong>
-        </h1>
+
         <ul className="about-info mt-4">
           <li>
-            <strong>Name:</strong> Clark Thompson
+            <strong>Name:</strong> Chamil Nethmina Gamage
           </li>
           <li>
-            <strong>Date of birth:</strong> January 01, 1987
+            <strong>Date of birth:</strong> October 26, 1998
           </li>
           <li>
-            <strong>Address:</strong> San Francisco CA 97987 USA
+            <strong>Address:</strong> Horana Kalutara Sri Lanka
           </li>
           <li>
-            <strong>Zip code:</strong> 1000
+            <strong>Zip code:</strong> 12300
           </li>
           <li>
-            <strong>Email:</strong> clarkthomp@gmail.com
+            <strong>Email:</strong> chamilnethmina@gmail.com
           </li>
           <li>
-            <strong>Phone:</strong> +1-2234-5678-9-0
+            <strong>Phone:</strong> +94 776030826
           </li>
         </ul>
       </Card.Body>
