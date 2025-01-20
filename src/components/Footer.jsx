@@ -12,7 +12,7 @@ function Footer() {
         <Col>
           <div className="social-links" style={{ fontSize: "1.5rem" }}>
             <a
-              href="https://www.facebook.com/your-profile"
+              href="https://web.facebook.com/chamilnethmina"
               target="_blank"
               rel="noopener noreferrer"
               style={{ color: "white", margin: "0 10px" }}
@@ -20,7 +20,7 @@ function Footer() {
               <FaFacebook />
             </a>
             <a
-              href="https://www.instagram.com/your-profile"
+              href="https://www.instagram.com/chamilnethmina/"
               target="_blank"
               rel="noopener noreferrer"
               style={{ color: "white", margin: "0 10px" }}
@@ -28,7 +28,7 @@ function Footer() {
               <FaInstagram />
             </a>
             <a
-              href="https://github.com/your-profile"
+              href="https://github.com/ChamilG"
               target="_blank"
               rel="noopener noreferrer"
               style={{ color: "white", margin: "0 10px" }}
@@ -36,7 +36,7 @@ function Footer() {
               <FaGithub />
             </a>
             <a
-              href="https://www.linkedin.com/in/your-profile"
+              href="https://www.linkedin.com/in/chamil-gamage/"
               target="_blank"
               rel="noopener noreferrer"
               style={{ color: "white", margin: "0 10px" }}
@@ -48,7 +48,7 @@ function Footer() {
       </Row>
       <Row className="text-center">
         <Col>
-          <h5>Copyright © {year} CN</h5>
+          <h5>Copyright © {year} CN | All rights reserved</h5>
         </Col>
       </Row>
     </Container>

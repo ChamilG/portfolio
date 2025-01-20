@@ -5,7 +5,6 @@ import AboutCard from "./AboutCard";
 import SkillSet from "./SkillSet";
 import { AiOutlineDownload } from "react-icons/ai";
 import { TiDocumentText } from "react-icons/ti";
-
 import pdf from "../../Assets/../Assets/ChamilGamageCV.pdf";
 
 function About() {
